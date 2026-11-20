@@ -5,7 +5,7 @@ from pathlib import Path
 
 st.set_page_config(page_title="Smart Energy Advisory", page_icon="⚡", layout="wide")
 
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = Path(__file__).parent
 
 @st.cache_data
 def load_data():
